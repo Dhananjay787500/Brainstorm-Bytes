@@ -39,5 +39,3 @@ from (select
         order by employee_id) as Row_No
 from employee) as R
 where Row_No = 1;
-
-
